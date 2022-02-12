@@ -7,7 +7,7 @@
 export default {
   transform: {},
   collectCoverage: true,
-  collectCoverageFrom: ["**/*.{js,jsx}", "!**/node_modules/**",],
+  collectCoverageFrom: ["src/**/*.{js,jsx}",],
   coverageDirectory: "coverage",
   coveragePathIgnorePatterns: ["/node_modules/"],
   coverageReporters: ["json", "text", "lcov", "clover"],
