@@ -1,14 +1,15 @@
 {
   "name": "js_kata_template",
   "version": "1.0.0",
-  "description": "JavaScript Katas Template",
+  "description": "JavaScript Kata Template",
   "type": "module",
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules jest",
     "lint": "eslint src/**/*.js test/**/*.js"
   },
   "keywords": [
-    "Kata"
+    "Kata",
+    "TDD"
   ],
   "author": "Maxwell Burdick",
   "license": "MIT",
