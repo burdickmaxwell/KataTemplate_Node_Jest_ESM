@@ -1,0 +1,17 @@
+{
+  "name": "js_kata_template",
+  "version": "1.0.0",
+  "description": "JavaScript Katas Template",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "keywords": [
+    "Kata"
+  ],
+  "author": "Maxwell Burdick",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
