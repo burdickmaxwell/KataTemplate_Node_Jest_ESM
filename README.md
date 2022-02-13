@@ -11,9 +11,12 @@ into small working elements--in essence, how we solve problems. By using constra
 so the repetition of a kata does not become an exercise of writing steps from memory, but instead strengthens creativity
 and understanding of the craft of software development.
 
-Strive to engage a kata as you would any project. Any practice is a performance in itself; to treat practice differently
-diminishes the experiences gained in practice from being used in performance. Time spent on a kata should be time boxed.
-The goal is to instill habits for daily use, not to solve a puzzle.
+Time spent on a kata should be time boxed--these are akin to warm-up exercises, after all. The goal is to instill habits
+for daily use, not to solve a puzzle. Take what you have learned from the kata and apply it to your normal coding
+practices. Use katas as a way to ensure you are thinking about software development correctly for yourself, so you can
+continue on throughout your day in the right frame of mind. Any practice is a performance in itself; to treat practice
+differently diminishes the experiences gained in practice from being used in performance, so make sure you are treating
+these katas how you envision an ideal coding session.
 
 ## Usage
 
@@ -33,7 +36,9 @@ touch src/newKata.js && touch test/newKata.test.js
 
 From here you can start writing your first test and start your kata journey.
 
-## links to kata ideas:
+## Katas to try:
+
+Here are some links with great katas to try out.
 
 * [Coding Dojo](https://codingdojo.org/kata/)
 * [TDDBuddy](http://www.tddbuddy.com/)
