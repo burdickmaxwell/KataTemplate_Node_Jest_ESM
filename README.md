@@ -31,6 +31,10 @@ more information). Tests can be run with `yarn test`. Since ESM modules are bein
 add `NODE_OPTIONS=--experimental-vm-modules` to the test runner if not running all tests with the built-in yarn command.
 To check your code, you can use eslint by running `yarn lint`.
 
+*N.B* For IntelliJ: In your test runner configuration, you may need to add the environmental
+variable `NODE_OPTIONS=--experimental-vm-modules` for IntelliJ test runner to work. Running tests from command line
+should work fine.
+
 To start a new kata, create a file in the `src/` directory, and a corresponding test file in the `test/` directory.
 example:
 
