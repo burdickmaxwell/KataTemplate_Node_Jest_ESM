@@ -1,4 +1,6 @@
 .idea/
+.DS_Store
+
 node_modules/
 coverage/
 
@@ -8,3 +10,4 @@ coverage/
 !.yarn/plugins
 .pnp.*
 yarn-error.log
+package-lock.json

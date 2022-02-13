@@ -4,9 +4,12 @@
   "description": "JavaScript/Node Kata Template with Jest and ESM modules",
   "type": "module",
   "engines": {
-    "node": ">=16.10.0"
+    "node": ">=16.10.0",
+    "yarn": ">=3.0.0",
+    "npm": "please-use-yarn"
   },
   "scripts": {
+    "preinstall": "npx only-allow yarn",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest",
     "lint": "eslint src/**/*.js test/**/*.js"
   },
