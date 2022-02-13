@@ -21,11 +21,15 @@ these katas how you envision an ideal coding session.
 ## Usage
 
 This template can be used as a skeleton to get you started with your kata journey. This particular template uses
-JavaScript and Node.js with ESM modules, Yarn for package manager, and Jest for testing.
+JavaScript and Node.js with ESM modules, Yarn for package manager, and Jest for testing. The usage of ESM modules does
+require experimental features of node, however given the current trajectory of node, it makes sense to use esm modules
+exclusively for these katas (plus, there isn't a need to transpile for testing).
 
-To install required dependencies, run `yarn install`. Tests can be run with `yarn test`. Since ESM modules are being
-used, you will need to add `NODE_OPTIONS=--experimental-vm-modules` to the test runner if not running all tests with the
-built-in yarn command. To check your code, you can use eslint by running `yarn lint`.
+To install required dependencies, run `yarn install` (this project requires node >= 16.10.0, which includes corepack,
+please make sure it is enabled by running `corepack enable`--see [here](https://yarnpkg.com/getting-started/install) for
+more information). Tests can be run with `yarn test`. Since ESM modules are being used, you will need to
+add `NODE_OPTIONS=--experimental-vm-modules` to the test runner if not running all tests with the built-in yarn command.
+To check your code, you can use eslint by running `yarn lint`.
 
 To start a new kata, create a file in the `src/` directory, and a corresponding test file in the `test/` directory.
 example:

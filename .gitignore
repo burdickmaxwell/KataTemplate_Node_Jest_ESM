@@ -1,4 +1,10 @@
 .idea/
 node_modules/
 coverage/
+
+# yarn -- not using Zero-Install
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*
 yarn-error.log
